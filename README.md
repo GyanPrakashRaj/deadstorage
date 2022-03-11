@@ -1,7 +1,7 @@
 # deadstorage
 
 My purpose is to use this tool as a password manager with [KeePassXC](https://keepassxc.org/),
-and also [INTERLOCK](https://github.com/f-secure-foundry/interlock) (file encryption front end).
+and also INTERLOCK (file encryption front end).
 
 ### 1. Preparing your own microSD card
 - 1. check [microSD-compatibility](https://github.com/inversepath/usbarmory/wiki/microSD-compatibility)
