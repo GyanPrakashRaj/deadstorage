@@ -4,17 +4,15 @@ My purpose is to use this tool as a password manager with [KeePassXC](https://ke
 and also INTERLOCK (file encryption front end).
 
 ### 1. Preparing your own microSD card
-- 1. check [microSD-compatibility](https://github.com/inversepath/usbarmory/wiki/microSD-compatibility)
+- 1. check microSD-compatibility
 - 2. [burn](https://voidlinux.miraheze.org/wiki/USB_Armory#Installation) Void Linux image into microSD card 
 
-I chose a Samsung microSD and installed Void Linux as described in their [wiki](https://voidlinux.miraheze.org/wiki/USB_Armory).
-I choose Void Linux, but there are other [available images](https://github.com/inversepath/usbarmory/wiki/Available-images) for USB armory.
-
+I chose a Samsung microSD and installed Void Linux as described in their wiki.
+I choose Void Linux, but there are other available image.
 ### 2. Connect to USB armory
 
 #### Option 1 - serial
-We can use USB to TTL cable to connect to USB armory serial port; the breakout header is described in [gpio page](https://github.com/inversepath/usbarmory/wiki/GPIOs).
-
+We can use USB to TTL cable to connect to USB armory serial port.
 I solder a header in USB armory and use pins 1,5,6 to connect a `USB to TTL` adapter with silicon CP210x chipset and specific [drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers).
 To connect in macOS use the next command:
 ```
